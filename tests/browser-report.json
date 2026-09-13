@@ -1,0 +1,204 @@
+{
+  "environment": "Chromium 144, 1600x1050 desktop / 390x844 mobile",
+  "load_method": "Exact local HTML/CSS/JS inlined using page.set_content. Native file:// and local HTTP browser navigation are blocked by environment policy; not claimed as browser transport tests. Local HTTP file responses tested separately.",
+  "passed": 38,
+  "total": 38,
+  "checks": [
+    {
+      "name": "4 drawing tabs",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "initial SVG drawing loaded",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "initial overview contains battery module",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "actual pointer component selection",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "net inspector traverses real members",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "inspector can close",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "zoom in changes actual viewBox",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "fit restores width",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "pointer pan changes viewBox",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "wheel zoom changes viewBox",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "switch drawing 1",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "switch drawing 2",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "switch drawing 3",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "switch drawing 4",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "breadboard renders 400 holes",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "breadboard contact shows U2 pin1",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "rail uses independent 1-25 count",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "SVG export is real vector drawing",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "embedded pdf download byte-identical",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "embedded eda download byte-identical",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop no document overflow",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile no horizontal page overflow",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile tab selection",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile inspector within viewport",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "no JavaScript runtime errors",
+      "pass_": true,
+      "detail": "[]"
+    },
+    {
+      "name": "PDF content clear of footer page 5",
+      "pass_": true,
+      "detail": "{'page': 5, 'body': 5098.125, 'footer': 5271.578125}"
+    },
+    {
+      "name": "PDF content clear of footer page 6",
+      "pass_": true,
+      "detail": "{'page': 6, 'body': 6231.171875, 'footer': 6333.625}"
+    },
+    {
+      "name": "PDF content clear of footer page 7",
+      "pass_": true,
+      "detail": "{'page': 7, 'body': 7318.6875, 'footer': 7395.671875}"
+    },
+    {
+      "name": "PDF content clear of footer page 8",
+      "pass_": true,
+      "detail": "{'page': 8, 'body': 8380.734375, 'footer': 8457.71875}"
+    },
+    {
+      "name": "PDF content clear of footer page 9",
+      "pass_": true,
+      "detail": "{'page': 9, 'body': 9364.328125, 'footer': 9519.765625}"
+    },
+    {
+      "name": "PDF content clear of footer page 10",
+      "pass_": true,
+      "detail": "{'page': 10, 'body': 10287.015625, 'footer': 10581.8125}"
+    },
+    {
+      "name": "HTTP static resource index.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP static resource css/app.css",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP static resource js/app.js",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP static resource js/design.js",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP static resource js/drawings.js",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP static resource downloads/Smart-Cart-Wiring-B1.pdf",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP static resource downloads/Smart-Cart-B1-EDA.zip",
+      "pass_": true,
+      "detail": ""
+    }
+  ],
+  "not_executed": [
+    "EasyEDA Pro import",
+    "Native KiCad load / ERC",
+    "Hardware tests",
+    "Safari / Firefox / real mobile device"
+  ]
+}

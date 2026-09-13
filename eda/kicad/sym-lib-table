@@ -1,0 +1,3 @@
+(sym_lib_table
+ (lib (name SmartCart)(type Legacy)(uri ${KIPRJMOD}/SmartCart.lib)(options "")(descr "Self-contained Smart Cart module terminals"))
+)

@@ -1,0 +1,195 @@
+﻿Reference,Device,SymbolPin,PhysicalTerminal,Net
+BT1,LiFePO4 배터리,1,+,BAT_POS
+BT1,LiFePO4 배터리,2,-,GND
+F0,메인 퓨즈,1,1,BAT_POS
+F0,메인 퓨즈,2,2,BAT_FUSED
+S0,메인 차단 스위치,1,1,BAT_FUSED
+S0,메인 차단 스위치,2,2,BUS24
+X24,배터리 전원 분배,1,IN,BUS24
+X24,배터리 전원 분배,2,K1,BUS24
+X24,배터리 전원 분배,3,F3,BUS24
+X24,배터리 전원 분배,4,F4,BUS24
+X0,공통 0V 분배,1,1,GND
+X0,공통 0V 분배,2,2,GND
+X0,공통 0V 분배,3,3,GND
+X0,공통 0V 분배,4,4,GND
+X0,공통 0V 분배,5,5,GND
+X0,공통 0V 분배,6,6,GND
+X0,공통 0V 분배,7,7,GND
+X0,공통 0V 분배,8,8,GND
+X0,공통 0V 분배,9,9,GND
+X0,공통 0V 분배,10,10,GND
+X0,공통 0V 분배,11,11,GND
+X0,공통 0V 분배,12,12,GND
+K1,구동 전원 접촉기,1,L1,BUS24
+K1,구동 전원 접촉기,2,T1,DRIVE24
+K1,구동 전원 접촉기,3,A1,COIL12
+K1,구동 전원 접촉기,4,A2,GND
+K1,구동 전원 접촉기,5,13,LATCH_IN
+K1,구동 전원 접촉기,6,14,COIL12
+F1,좌측 모터 입력 퓨즈,1,1,DRIVE24
+F1,좌측 모터 입력 퓨즈,2,2,ML_VIN
+F2,우측 모터 입력 퓨즈,1,1,DRIVE24
+F2,우측 모터 입력 퓨즈,2,2,MR_VIN
+MDL,좌측 모터 드라이버,1,VIN,ML_VIN
+MDL,좌측 모터 드라이버,2,GND,GND
+MDL,좌측 모터 드라이버,3,OUTA,ML_A
+MDL,좌측 모터 드라이버,4,OUTB,ML_B
+MDL,좌측 모터 드라이버,5,RX,ML_RX
+MDL,좌측 모터 드라이버,6,TX,ML_TX
+ML,좌측 감속모터,1,A,ML_A
+ML,좌측 감속모터,2,B,ML_B
+MDR,우측 모터 드라이버,1,VIN,MR_VIN
+MDR,우측 모터 드라이버,2,GND,GND
+MDR,우측 모터 드라이버,3,OUTA,MR_A
+MDR,우측 모터 드라이버,4,OUTB,MR_B
+MDR,우측 모터 드라이버,5,RX,MR_RX
+MDR,우측 모터 드라이버,6,TX,MR_TX
+MR,우측 감속모터,1,A,MR_A
+MR,우측 감속모터,2,B,MR_B
+F3,12V 컨버터 입력 퓨즈,1,1,BUS24
+F3,12V 컨버터 입력 퓨즈,2,2,DC12_IN
+F4,5V 컨버터 입력 퓨즈,1,1,BUS24
+F4,5V 컨버터 입력 퓨즈,2,2,DC5_IN
+DC1,조향 전원 컨버터,1,IN+,DC12_IN
+DC1,조향 전원 컨버터,2,IN-,GND
+DC1,조향 전원 컨버터,3,OUT+,P12
+DC1,조향 전원 컨버터,4,OUT-,GND
+DC2,제어 전원 컨버터,1,IN+,DC5_IN
+DC2,제어 전원 컨버터,2,IN-,GND
+DC2,제어 전원 컨버터,3,OUT+,P5
+DC2,제어 전원 컨버터,4,OUT-,GND
+F5,좌측 서보 퓨즈,1,1,P12
+F5,좌측 서보 퓨즈,2,2,SVL_PWR
+SVL,좌측 조향 서보,1,V+,SVL_PWR
+SVL,좌측 조향 서보,2,GND,GND
+SVL,좌측 조향 서보,3,PWM,SERVO_L
+F6,우측 서보 퓨즈,1,1,P12
+F6,우측 서보 퓨즈,2,2,SVR_PWR
+SVR,우측 조향 서보,1,V+,SVR_PWR
+SVR,우측 조향 서보,2,GND,GND
+SVR,우측 조향 서보,3,PWM,SERVO_R
+F7,Orange Pi 출력 퓨즈,1,1,P5
+F7,Orange Pi 출력 퓨즈,2,2,OPI5
+F8,USB 허브 출력 퓨즈,1,1,P5
+F8,USB 허브 출력 퓨즈,2,2,HUB5
+F9,접촉기 코일 퓨즈,1,1,P12
+F9,접촉기 코일 퓨즈,2,2,COIL_FUSED
+F10,브레드보드 5V 분기,1,1,P5
+F10,브레드보드 5V 분기,2,2,LOGIC5
+S1,비상정지 버튼,1,1,COIL_FUSED
+S1,비상정지 버튼,2,2,LATCH_IN
+S2,수동 재무장 버튼,1,1,LATCH_IN
+S2,수동 재무장 버튼,2,2,COIL12
+Z1,코일 서지 억제 모듈,1,1,COIL12
+Z1,코일 서지 억제 모듈,2,2,GND
+OP1,Orange Pi 4 Pro,1,PWR+,OPI5
+OP1,Orange Pi 4 Pro,2,PWR-GND,GND
+OP1,Orange Pi 4 Pro,3,HOST_VBUS,HOST5
+OP1,Orange Pi 4 Pro,4,HOST_D-,HOST_DM
+OP1,Orange Pi 4 Pro,5,HOST_D+,HOST_DP
+OP1,Orange Pi 4 Pro,6,HOST_GND,GND
+H1,외부 전원 USB 허브,1,DC+,HUB5
+H1,외부 전원 USB 허브,2,DC-,GND
+H1,외부 전원 USB 허브,3,UP_VBUS_SENSE,HOST5
+H1,외부 전원 USB 허브,4,UP_D-,HOST_DM
+H1,외부 전원 USB 허브,5,UP_D+,HOST_DP
+H1,외부 전원 USB 허브,6,UP_GND,GND
+H1,외부 전원 USB 허브,7,P1_VBUS,USB_ESP_5
+H1,외부 전원 USB 허브,8,P1_D-,USB_ESP_DM
+H1,외부 전원 USB 허브,9,P1_D+,USB_ESP_DP
+H1,외부 전원 USB 허브,10,P1_GND,GND
+H1,외부 전원 USB 허브,11,P2_VBUS,USB_LIDAR_5
+H1,외부 전원 USB 허브,12,P2_D-,USB_LIDAR_DM
+H1,외부 전원 USB 허브,13,P2_D+,USB_LIDAR_DP
+H1,외부 전원 USB 허브,14,P2_GND,GND
+H1,외부 전원 USB 허브,15,P3_VBUS,USB_UWBL_5
+H1,외부 전원 USB 허브,16,P3_D-,USB_UWBL_DM
+H1,외부 전원 USB 허브,17,P3_D+,USB_UWBL_DP
+H1,외부 전원 USB 허브,18,P3_GND,GND
+H1,외부 전원 USB 허브,19,P4_VBUS,USB_UWBR_5
+H1,외부 전원 USB 허브,20,P4_D-,USB_UWBR_DM
+H1,외부 전원 USB 허브,21,P4_D+,USB_UWBR_DP
+H1,외부 전원 USB 허브,22,P4_GND,GND
+U1,ESP32-DevKitC V4,1,USB_VBUS,USB_ESP_5
+U1,ESP32-DevKitC V4,2,USB_D-,USB_ESP_DM
+U1,ESP32-DevKitC V4,3,USB_D+,USB_ESP_DP
+U1,ESP32-DevKitC V4,4,USB_GND,GND
+U1,ESP32-DevKitC V4,5,J2.1 / 3V3,P3V3
+U1,ESP32-DevKitC V4,6,J2.14 / GND,GND
+U1,ESP32-DevKitC V4,7,J3.11 / IO17,ESP_L_TX
+U1,ESP32-DevKitC V4,8,J3.12 / IO16,ML_TX
+U1,ESP32-DevKitC V4,9,J2.9 / IO25,ESP_R_TX
+U1,ESP32-DevKitC V4,10,J2.10 / IO26,MR_TX
+U1,ESP32-DevKitC V4,11,J3.9 / IO18,IMU_SCK
+U1,ESP32-DevKitC V4,12,J3.2 / IO23,IMU_MOSI
+U1,ESP32-DevKitC V4,13,J3.8 / IO19,IMU_MISO
+U1,ESP32-DevKitC V4,14,J2.11 / IO27,IMU_CS
+U1,ESP32-DevKitC V4,15,J2.5 / IO34,IMU_INT
+U1,ESP32-DevKitC V4,16,J2.7 / IO32,IMU_RST
+U1,ESP32-DevKitC V4,17,J3.6 / IO21,TOF_SDA
+U1,ESP32-DevKitC V4,18,J3.3 / IO22,TOF_SCL
+U1,ESP32-DevKitC V4,19,J2.15 / IO13,PWM_L_3V3
+U1,ESP32-DevKitC V4,20,J2.12 / IO14,PWM_R_3V3
+A1,LiDAR USB 어댑터,1,USB_VBUS,USB_LIDAR_5
+A1,LiDAR USB 어댑터,2,USB_D-,USB_LIDAR_DM
+A1,LiDAR USB 어댑터,3,USB_D+,USB_LIDAR_DP
+A1,LiDAR USB 어댑터,4,USB_GND,GND
+A1,LiDAR USB 어댑터,5,5V_OUT,USB_LIDAR_5
+A1,LiDAR USB 어댑터,6,GND_OUT,GND
+A1,LiDAR USB 어댑터,7,TX_3V3,LIDAR_RX
+A1,LiDAR USB 어댑터,8,RX_3V3,LIDAR_TX
+LD1,2D LiDAR,1,5V,USB_LIDAR_5
+LD1,2D LiDAR,2,GND,GND
+LD1,2D LiDAR,3,TX,LIDAR_TX
+LD1,2D LiDAR,4,RX,LIDAR_RX
+UWL,좌측 UWB 베이스,1,USB_VBUS,USB_UWBL_5
+UWL,좌측 UWB 베이스,2,USB_D-,USB_UWBL_DM
+UWL,좌측 UWB 베이스,3,USB_D+,USB_UWBL_DP
+UWL,좌측 UWB 베이스,4,USB_GND,GND
+UWR,우측 UWB 베이스,1,USB_VBUS,USB_UWBR_5
+UWR,우측 UWB 베이스,2,USB_D-,USB_UWBR_DM
+UWR,우측 UWB 베이스,3,USB_D+,USB_UWBR_DP
+UWR,우측 UWB 베이스,4,USB_GND,GND
+IMU1,관성 센서,1,VIN,P3V3
+IMU1,관성 센서,2,GND,GND
+IMU1,관성 센서,3,SCL / SCK,IMU_SCK
+IMU1,관성 센서,4,DI / MOSI,IMU_MOSI
+IMU1,관성 센서,5,SDA / MISO,IMU_MISO
+IMU1,관성 센서,6,CS,IMU_CS
+IMU1,관성 센서,7,INT,IMU_INT
+IMU1,관성 센서,8,RST,IMU_RST
+IMU1,관성 센서,9,P0,P3V3
+IMU1,관성 센서,10,P1,P3V3
+TOF1,근거리 거리 센서,1,VIN,P3V3
+TOF1,근거리 거리 센서,2,GND,GND
+TOF1,근거리 거리 센서,3,SDA,TOF_SDA
+TOF1,근거리 거리 센서,4,SCL,TOF_SCL
+R1,R1 1kΩ,1,1,ESP_L_TX
+R1,R1 1kΩ,2,2,ML_RX
+R2,R2 1kΩ,1,1,ESP_R_TX
+R2,R2 1kΩ,2,2,MR_RX
+R3,R3 220Ω,1,1,PWM_L_5V
+R3,R3 220Ω,2,2,SERVO_L
+R4,R4 220Ω,1,1,PWM_R_5V
+R4,R4 220Ω,2,2,SERVO_R
+R5,R5 10kΩ,1,1,PWM_L_3V3
+R5,R5 10kΩ,2,2,GND
+R6,R6 10kΩ,1,1,PWM_R_3V3
+R6,R6 10kΩ,2,2,GND
+U2,서보 PWM 레벨 버퍼,1,1 / 1OE,GND
+U2,서보 PWM 레벨 버퍼,2,2 / 1A,PWM_L_3V3
+U2,서보 PWM 레벨 버퍼,3,3 / 1Y,PWM_L_5V
+U2,서보 PWM 레벨 버퍼,4,4 / 2OE,GND
+U2,서보 PWM 레벨 버퍼,5,5 / 2A,PWM_R_3V3
+U2,서보 PWM 레벨 버퍼,6,6 / 2Y,PWM_R_5V
+U2,서보 PWM 레벨 버퍼,7,7 / GND,GND
+U2,서보 PWM 레벨 버퍼,8,8 / 3Y,NC_U2_8
+U2,서보 PWM 레벨 버퍼,9,9 / 3A,GND
+U2,서보 PWM 레벨 버퍼,10,10 / 3OE,LOGIC5
+U2,서보 PWM 레벨 버퍼,11,11 / 4Y,NC_U2_11
+U2,서보 PWM 레벨 버퍼,12,12 / 4A,GND
+U2,서보 PWM 레벨 버퍼,13,13 / 4OE,LOGIC5
+U2,서보 PWM 레벨 버퍼,14,14 / VCC,LOGIC5
+C1,버퍼 디커플링,1,1,LOGIC5
+C1,버퍼 디커플링,2,2,GND

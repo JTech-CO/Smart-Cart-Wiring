@@ -1,0 +1,216 @@
+{
+  "scope": "STATIC DESIGN / FILE ROUND-TRIP ONLY",
+  "counts": {
+    "components_with_pins": 44,
+    "symbol_terminals": 194,
+    "nets": 63,
+    "breadboard_used_holes": 84,
+    "breadboard_total_holes": 400
+  },
+  "passed": 39,
+  "total": 39,
+  "checks": [
+    {
+      "name": "unique module references",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "194 unique electrical terminals",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "63 canonical net names",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "symbol pin sequences",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "400-hole reference topology",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "no conflicting nets on breadboard strips or rails",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "breadboard coordinates in valid 400-tie range",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "no 12V / battery / motor net on breadboard",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "3.3V and 5V positive rails remain separate",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "negative rail bridge only",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "all inserted jumper ends have same net",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "passive lead coordinates match terminal netlist",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "DIP14 numbering not mirrored",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "DIP power GND7 VCC14",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "unused buffer inputs and enables are tied",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "resistor lead paths placed on different rows",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "ESP32 external 5V header not wired",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "IMU SPI mode P0 and P1 high",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "ToF raw 2.8V pins left unconnected",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "user tag has no cart electrical connection",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "motor outputs are not GND",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "motor branch protection before VIN",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "main battery only one outgoing positive net",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "four USB downstream device pairs",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "EasyEDA 44 embedded module symbols",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "EasyEDA 194 real pins and 194 wire stubs",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "EasyEDA pin/name/net round trip matches canonical model",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "EasyEDA graph ids unique",
+      "pass_": true,
+      "detail": "761"
+    },
+    {
+      "name": "no PCB footprint or converter flag",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "document has schematic type and no raster picture primitives",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "KiCad legacy 44 components and 194 physical pin declarations",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "KiCad legacy wire and netlabel counts",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "KiCad symbol library and cache identical",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "XML netlist matches 194 exported terminals",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "SVG XML and viewBox 01-overview.svg",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "SVG XML and viewBox 02-power.svg",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "SVG XML and viewBox 03-control.svg",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "SVG XML and viewBox 04-breadboard.svg",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "name": "400 rendered breadboard holes",
+      "pass_": true,
+      "detail": ""
+    }
+  ],
+  "not_executed": [
+    "Native EasyEDA Standard/Pro import",
+    "Native KiCad file opening / ERC",
+    "Hardware prototype / electrical compliance",
+    "Current rating, wire gauge, fuses and thermal validation",
+    "Motor regeneration / contactor opening / braking validation"
+  ]
+}
